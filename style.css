@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+.resume {
+    width: 90rem;
+    height: 100rem;
+    /* border: 0.2px solid black; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* for left side style */
+.items1 {
+    width: 30rem;
+    height: 100rem;
+    /* border: 2px solid green; */
+    padding: 20px;
+    background: #192029;
+    color: white;
+}
+
+.profile {
+    text-align: center;
+}
+
+.img1 {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.name_design {
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.sub_design {
+    font-size: 1.5rem;
+
+}
+
+.fas {
+    color: white;
+    font-size: 1.7rem;
+}
+
+.info {
+    margin-top: 3rem;
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+.details_design {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.skill {
+    margin-top: 3rem;
+    height: 20rem;
+    /* border: 2px solid red; */
+}
+
+.skills {
+    font-size: 3rem;
+}
+
+.skill_design {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 3rem;
+    height: 15rem;
+}
+
+.edu {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: white;
+}
+
+.content {
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+span {
+    margin-left: 0.5rem;
+}
+
+.color {
+    background: #ab82ad;
+}
+
+.language {
+    margin-top: 2rem;
+    height: 10rem;
+}
+
+/*right side design */
+.items2 {
+    width: 55rem;
+    height: 100rem;
+    /* border: 2px solid green; */
+    padding: 4rem 0;
+}
+
+.profile_content {
+    font-size: 4rem;
+}
+
+.heading {
+    color: #293b87;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+}
+
+.content_line {
+    opacity: 0.8;
+    margin-bottom: 2rem;
+}
+
+.class_education {
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.class_details1 {
+    width: 25rem;
+}
+
+h3 {
+    color: #2a7da2;
+}
+
+.intrest {
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+.intest1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    opacity: 0.8;
+}
+.inteset_items{
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 0)and (max-width: 790px) {
+    .resume {
+        width: 100%;
+        font-size: 50%;
+    }
+
+    .items1 {
+        width: 100%;
+    }
+    .items2 {
+        width: 100%;
+        height: 90rem;
+        padding: 2rem;
+    }
+}
+
+/* @media screen and (min-width: 480px) and (max-width: 768px) {
+    .resume {
+        width: 80%;
+        font-size: 40%;
+    }
+
+    .items1 {
+        width: 55rem;
+    }
+} */
